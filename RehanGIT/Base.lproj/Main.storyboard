@@ -32,13 +32,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNr-9a-GVZ">
+                                <rect key="frame" x="143" y="632" width="128" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.53725490200000003" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="FMR-KW-ryI" firstAttribute="top" secondItem="yuY-ow-opH" secondAttribute="bottom" constant="86.5" id="KuK-Rf-1pU"/>
+                            <constraint firstItem="bNr-9a-GVZ" firstAttribute="top" secondItem="FMR-KW-ryI" secondAttribute="bottom" constant="66" id="SRd-gM-AwZ"/>
                             <constraint firstItem="yuY-ow-opH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T2N-Pq-Pgc"/>
                             <constraint firstItem="FMR-KW-ryI" firstAttribute="centerX" secondItem="yuY-ow-opH" secondAttribute="centerX" id="VMA-Lm-Up4"/>
                             <constraint firstItem="yuY-ow-opH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nci-yb-nxk"/>
+                            <constraint firstItem="bNr-9a-GVZ" firstAttribute="centerX" secondItem="FMR-KW-ryI" secondAttribute="centerX" id="thz-bO-8jw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

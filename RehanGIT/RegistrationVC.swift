@@ -12,7 +12,8 @@ class RegistrationVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // commit from registration
+        
         // Do any additional setup after loading the view.
     }
     

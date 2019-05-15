@@ -37,5 +37,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--RegistrationVC-->
+        <scene sceneID="hKy-Qd-T69">
+            <objects>
+                <viewController storyboardIdentifier="RegistrationVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CWs-Sb-ou2" customClass="RegistrationVC" customModule="RehanGIT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OFZ-qU-2WL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registartion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3h-GG-rCr">
+                                <rect key="frame" x="160.5" y="437.5" width="93" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.14901960780000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="j3h-GG-rCr" firstAttribute="centerY" secondItem="OFZ-qU-2WL" secondAttribute="centerY" id="rdE-zF-g08"/>
+                            <constraint firstItem="j3h-GG-rCr" firstAttribute="centerX" secondItem="OFZ-qU-2WL" secondAttribute="centerX" id="yTq-Xe-ioq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8f4-tD-cBj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U2T-4c-36X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="829" y="21"/>
+        </scene>
     </scenes>
 </document>
